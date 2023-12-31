@@ -3,3 +3,6 @@ name = "bib"
 version = "0.1.0"
 authors = [ "Jan Tebernum <jan.tebernum@pm.me>" ]
 edition = "2021"
+
+[dependencies]
+leptos = { version = "0.5.4", features = ["csr", "nightly"] }
